@@ -1,0 +1,983 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-page{
+    height: 600px;
+    width: 1250px;
+    background-image: url("./Photos/mainBackground.png");
+    background-size: 100% 100%;
+}
+
+.first-page .nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: bisque; */
+}
+
+.first-page .nav .logo{
+
+}
+
+.first-page .nav .logo img{
+    width: 90px;
+    height: 70px;
+    margin-right: 150px;
+}
+
+.first-page .nav .list{
+    /* display: flex; */
+    margin-left: 100px;
+    /* gap: 40px; */
+}
+
+.first-page .nav .list .list-items{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.first-page .nav .list .list-items li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.first-page .lining{
+    margin-top: 10px;
+    width: 1100px;
+    margin-left: 70px;
+    height: 1px;
+    background-color: ghostwhite;
+}
+
+.first-page .main{
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: whitesmoke;
+}
+
+.first-page .main .heading p{
+    font-size: 50px;
+    font-weight: bold;
+    /* color:  */
+}
+
+.first-page .main .para{
+    /* font-weight: bold; */
+}
+
+.first-page .main .btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+/* second page  */
+.second-page{
+    height: 500px;
+    background-color: white;
+}
+
+.first-page .logo-section{
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 50px;
+    margin-left: 25px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.first-page .logo-section p{
+    font-size: 40px;
+    color: blue;
+    margin-left: 70px;
+
+}
+/* second page  */
+.second-page .heading{
+    height: 90px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-page .heading p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* home part-1  */
+.second-page .home-part{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+
+ /* first home  */
+.second-page .home-part .first{
+    /* background-image: url("./Photos/cardImage1.png");
+    background-size: 100% 90%; */
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part .first .img-part{
+    height: 73%;
+}
+
+.second-page .home-part .first .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part .first .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part .first .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part .first .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part .first .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+
+
+/* second home  */
+.second-page .home-part .second{
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+.second-page .home-part .second .img-part{
+    height: 73%;
+}
+
+.second-page .home-part .second .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part .second .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part .second .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part .second .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part .second .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+/* third home  */
+.second-page .home-part .third{
+    width: 268px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.second-page .home-part .third .img-part{
+    height: 73%;
+}
+
+.second-page .home-part .third .img-part img{
+    width: 268px;
+    height: 315px;
+
+}
+
+/* features part  */
+.second-page .home-part .third .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part .third .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part .third .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part .third .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+/* home part-2 */
+.second-page .home-part-2{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+ 
+/* fourth home  */
+.second-page .home-part-2 .fourth{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-2 .fourth .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-2 .fourth .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-2 .fourth .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-2 .fourth .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-2 .fourth .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-2 .fourth .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* fifth home  */
+
+.second-page .home-part-2 .fifth{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-2 .fifth .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-2 .fifth .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-2 .fifth .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-2 .fifth .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-2 .fifth .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-2 .fifth .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* sixth part  */
+
+.second-page .home-part-2 .sixth{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-2 .sixth .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-2 .sixth .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-2 .sixth .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-2 .sixth .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-2 .sixth .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-2 .sixth .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* home-part-3  */
+.second-page .home-part-3{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+
+/* seventh home  */
+
+
+.second-page .home-part-3 .seventh{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-3 .seventh .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-3 .seventh .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-3 .seventh .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-3 .seventh .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-3 .seventh .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-3 .seventh .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* eighth part  */
+
+
+.second-page .home-part-3 .eighth{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-3 .eighth .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-3 .eighth .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-3 .eighth .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-3 .eighth .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-3 .eighth .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-3 .eighth .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+/* ninth home  */
+
+
+.second-page .home-part-3 .ninth{
+   
+    width: 268px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* justify-content: flex-end; */
+}
+
+.second-page .home-part-3 .ninth .img-part{
+    height: 73%;
+}
+
+.second-page .home-part-3 .ninth .img-part img{
+    width: 268px;
+    height: 315px;
+}
+
+/* features part  */
+.second-page .home-part-3 .ninth .feature{
+    /* margin-top: 315px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    width: 220px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.second-page .home-part-3 .ninth .feature .written{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page .home-part-3 .ninth .feature .written p:nth-child(2){
+    color: blue;
+}
+
+.second-page .home-part-3 .ninth .feature .bbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+/* Modern trendy affordable  */
+
+.second-page .Modern{
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.second-page .Modern .left{
+    /* width: 50%; */
+    width: 550px;
+    height: 280px;
+
+}
+
+.second-page .Modern .left .img-1 img{
+width: 490px;
+height: 270px;
+position: absolute;
+margin-top: 30px;
+}
+
+.second-page .Modern .left .img-2 img{
+    width: 245px;
+    height: 230px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 138px;
+}
+
+.second-page .Modern .right{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-page .Modern .right .header p{
+    font-size: 45px;
+    /* margin-top: 5px; */
+    font-weight: bold;
+
+}
+
+.second-page .Modern .right .btn .bbtn{
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+
+/* unique house  */
+
+.second-page .unique{
+    margin-top: 80px;
+    display: flex;
+    gap: 50px;
+    margin-left: 90px;
+}
+
+/* left part  */
+.second-page .unique .left{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-page .unique .left .header p{
+    font-size: 50px;
+    /* margin-top: 5px; */
+    font-weight: bold;
+
+}
+
+
+.second-page .unique .left .btn .bbtn{
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* right part  */
+.second-page .unique .right{
+    width: 550px;
+    height: 280px;
+
+}
+
+
+.second-page .unique .right .img-1 img{
+   
+    width: 297px;
+    height: 230px;
+    border-radius: 20px;
+    position: absolute;
+        margin-left: 128px;
+
+    }
+    
+    .second-page .unique .right .img-2 img{
+        width: 400px;
+    height: 270px;
+    /* position: absolute; */
+    margin-top: 30px;
+    margin-left: 100px;
+    }
+
+
+    /* subscribe  */
+
+    .second-page .subscribe{
+        height: 450px;
+        width: 1100px;
+        margin-top: 100px;
+        border-radius: 50px;
+        background-color: blue;
+        color: whitesmoke;
+        margin-left: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-page .subscribe .header{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .second-page .subscribe .para{
+        margin-top: 30px;
+    }
+
+    .second-page .subscribe .para p{
+        margin-top: 10px;
+    }
+
+    .second-page .subscribe .enter{
+        display: flex;
+        gap: 15px;
+        width: 600px;
+        height: 50px;
+        /* border: 1px solid black; */
+        align-items: center;
+        margin-top: 40px;
+
+    }  
+
+
+    .second-page .subscribe .enter .email .form-group input{
+        width: 400px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #120E43;
+        color: white;
+        border: none;
+    }
+
+
+
+    .second-page .subscribe .enter .btn .btnn{
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        color: blue;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+    /* footer section  */
+
+    .second-page .footer-section{
+        display: flex;
+        margin-top: 90px;
+        margin-left: 180px;
+        gap: 40px;
+        height: 300px;
+
+    }
+
+    .second-page .footer-section .first{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        gap: 20px;
+
+    }
+
+    .second-page .footer-section .first .logo img{
+        width: 120px;
+        height: 60px;
+    }
+
+
+
+    .second-page .footer-section .first .img-part{
+        display: flex;
+        gap: 15px;
+    }
+
+    .second-page .footer-section .first .img-part .facebook img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .second-page .footer-section .first .img-part .twitter img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .second-page .footer-section .first .img-part .insta img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .second-page .footer-section .first .para p{
+        margin-top: 5px;
+        color: gray;
+    }
+
+/* second  */
+    .second-page .footer-section .second{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 150px;
+        height: 200px;
+        gap: 25px;
+
+    }
+
+  
+    .second-page .footer-section .second h3 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .second-page .footer-section .second p a{
+        text-decoration: none;
+        color: grey;
+    }
+
+    /* third  */
+
+    .second-page .footer-section .third{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 150px;
+        height: 200px;
+        gap: 25px;
+    }
+
+    .second-page .footer-section .third h3 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .second-page .footer-section .third p a{
+        text-decoration: none;
+        color: grey;
+    }
+
+/* fourth  */
+    .second-page .footer-section .fourth{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 150px;
+        height: 200px;
+        gap: 25px;
+    }
+
+    .second-page .footer-section .fourth h3 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .second-page .footer-section .fourth p a{
+        text-decoration: none;
+        color: grey;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

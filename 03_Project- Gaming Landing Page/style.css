@@ -1,0 +1,1184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/futuristic-bg.png") ;
+    color: white;
+    height: 500px;
+
+}
+
+.container .navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .navbar .logo img{
+    position: relative;
+    width: 85px;
+    height: 85px;
+    margin-left: 100px;
+}
+
+.container .navbar .button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-right: 100px;
+}
+.container .navbar button{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.container .navbar button:hover{
+    background-color:#242B2E;
+    border: 1px solid seashell;
+
+}
+
+
+.container .navbar .list-items{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 180px;
+}
+
+.container .navbar .list-items li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container .main-section{
+position: relative;
+margin-top: 80px;
+display: flex;
+gap: 150px;
+margin-left: 100px;
+height: 350px;
+/* justify-content: space-around; */
+/* align-items: center; */
+/* flex-direction: row; */
+
+}
+
+.container .main-section .left{
+    /* display: ; */
+    width: 50%;
+    position: relative;
+    /* border: 3px solid whitesmoke; */
+    margin-bottom: 30px;
+}
+
+.container .main-section .left .heading{
+    position: relative;
+    font-size: 25px;
+}
+
+    .container .main-section .left .para{
+        margin-top: 15px;
+        position: relative;
+        color: ghostwhite;
+    }
+
+        .container .main-section .left .btn{
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .container .main-section .left .btn button{
+            width: 120px;
+            height: 40px;
+            background-color: orangered;
+            color: whitesmoke;
+        }
+
+        .container .main-section .left .btn button:hover{
+            background-color: #242B2E;
+            border: 1px solid seashell;
+
+        }
+
+
+
+
+.container .main-section .right{
+width: 30%;
+/* border: 3px solid whitesmoke; */
+margin-bottom: 30px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.container .main-section .right .play-button img{
+    position: relative;
+    width: 50px;
+    height: 85px;
+
+}
+
+    .container .main-section .right .second{
+        display: flex;
+        position: relative;
+        /* justify-content: flex-start; */
+        gap: 100px;
+        margin-top: 100px;
+
+    }
+
+
+    /* second page  */
+    .second-page{
+        position: relative;
+        background-color:white;
+
+    }
+
+    .second-page .first .para{
+        position: relative;
+        font-size: 50px;
+        margin-top: 100px;
+        margin-left: 300px;
+        font-weight: bold;
+    }
+    .second-page .first .para p:nth-child(2){
+        margin-left: 120px;
+    }
+
+    .second-page .second{
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 170px;
+        gap: 20px;
+
+
+    }
+
+    .second-page .second .card-1{
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        color: white;
+        height: 250px;
+        width: 20%;
+        /* border: 2px solid red; */
+        background: url('./Project 3- Gaming Landing Page/Assets/Photos/image\ 2.png');
+        background-size: 100% 100%;
+        }
+
+        .second-page .second .card-1 .feedback-1{
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* border: 2px solid maroon; */
+            width: 100%;
+            height: 70px;
+            background-color: #758283;
+
+        }
+
+        .second-page .second .card-1 .feedback-1 .review{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .second-page .second .card-1 .feedback-1 .download button{
+            height: 35px;
+            width: 80px;
+            background-color: orangered;
+            color: white;
+            border: none;
+        }
+
+        .second-page .second .card-1 .feedback-1 .download button:hover{
+            background-color: black;
+            border: 1px solid whitesmoke;
+
+        }
+
+
+         
+
+        .second-page .second .card-2{
+            position: relative;
+            height: 250px;
+            width: 20%;
+            display: flex;
+            align-items: flex-end;
+            color: white;
+            /* border: 2px solid red; */
+            background: url('./Project 3- Gaming Landing Page/Assets/Photos/image\ 4.png');
+            background-size: 100% 100%;
+            }
+        
+            .second-page .second .card-2 .feedback-2{
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                /* border: 2px solid maroon; */
+                width: 100%;
+                height: 70px;
+                background-color: #0D0D0D;
+    
+            }
+    
+            .second-page .second .card-2 .feedback-2 .review{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .second-page .second .card-2 .feedback-2 .download button{
+                height: 35px;
+                width: 80px;
+                background-color: orangered;
+                color: white;
+                border: none;
+            }
+    
+            .second-page .second .card-2 .feedback-2 .download button:hover{
+                background-color: black;
+                border: 1px solid whitesmoke;
+            }
+
+
+
+            .second-page .second .card-3{
+                position: relative;
+                height: 250px;
+                width: 20%;
+                display: flex;
+                align-items: flex-end;
+                color: white;
+                /* border: 2px solid red; */
+                background: url('./Project 3- Gaming Landing Page/Assets/Photos/image\ 3.png');
+                background-size: 100% 100%;
+            }
+
+            .second-page .second .card-3 .feedback-3{
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                /* border: 2px solid maroon; */
+                width: 100%;
+                height: 70px;
+                background-color: #242B2E;
+    
+            }
+    
+            .second-page .second .card-3 .feedback-3 .review{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .second-page .second .card-3 .feedback-3 .download button{
+                height: 35px;
+                width: 80px;
+                background-color: orangered;
+                color: white;
+                border: none;
+            }
+    
+            .second-page .second .card-3 .feedback-3 .download button:hover{
+                background-color: black;
+                border: 1px solid whitesmoke;
+    
+            }
+
+
+                .second-page .second .card-4{
+                    position: relative;
+                    height: 250px;
+                    width: 20%;
+                    display: flex;
+                    align-items: flex-end;
+                    color: white;
+                    /* border: 2px solid red; */
+                    background: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle\ 56.png');
+                    background-size: 100% 100%;
+                }
+
+                .second-page .second .card-4 .feedback-4{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    /* border: 2px solid maroon; */
+                    width: 100%;
+                    height: 70px;
+                    background-color:#242B2E;
+        
+                }
+        
+                .second-page .second .card-4 .feedback-4 .review{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                }
+        
+                .second-page .second .card-4 .feedback-4 .download button{
+                    height: 35px;
+                    width: 80px;
+                    background-color: orangered;
+                    color: white;
+                    border: none;
+                }
+        
+                .second-page .second .card-4 .feedback-4 .download button:hover{
+                    background-color: black;
+                    border: 1px solid whitesmoke;
+                }
+
+                /* third  */
+
+                .second-page .third{
+                    position: relative;
+                    margin-top: 100px;
+                    margin-left: 160px;
+                    display: flex;
+                    /* width: 1000px; */
+                    gap: 70px;
+
+                }
+
+                .second-page .third .img-part{
+                     width: 35%;
+                    height: 300px; 
+                    /* border: 2px solid red;  */
+                }
+
+                .second-page .third .img-part img{
+                    width: 400px;
+                    height: 300px;
+                    /* border: 5px solid red; */
+
+                }
+
+
+                .second-page .third .scnd{
+                    position: relative;
+                    width: 45%;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    /* border: 2px solid red; */
+                    
+                }
+
+
+                .second-page .third .scnd .heading h1{
+                    position: relative;
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+
+                .second-page .third .scnd .para{
+                    position: relative;
+                    margin-top: 20px;
+                    font-size: 16px;
+                    color: grey;
+
+                }
+
+                .second-page .third .scnd .bttn{
+                    position: relative;
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 35px;
+
+                }
+
+                .second-page .third .scnd .bttn button{
+                    width: 100px;
+                    height: 40px;
+                    background-color: orangered;
+                    color: aliceblue;
+                    border: none;
+                }
+
+                .second-page .third .scnd .bttn button:hover{
+                    background-color: #242B2E;
+                    border: 1px snow;
+                }
+
+
+
+          /* fourth part  */
+         .second-page .fourth{
+            margin-top: 100px;
+             }
+
+                .second-page .fourth .navv h1{
+                    position: relative;
+                    /* margin-top: 100px; */
+                    font-size: 50px;
+                    margin-left: 140px;
+
+                }
+
+                .second-page .fourth .navv{
+                    position: relative;
+                    display: flex;
+
+
+                }
+
+                .second-page .fourth .navv .img-part{
+                    display: flex;
+                    gap: 10px;
+                    margin-left: 440px;
+                    margin-top: 10px;
+                }
+                .second-page .fourth .navv .img-1{
+                    position: relative;
+                    width: 50px;
+                    height: 50px;
+                    /* border: 3px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #242B2E;
+
+                }
+
+                .second-page .fourth .navv .img-2{
+                    position: relative;
+                    width: 50px;
+                    height: 50px;
+                    /* border: 3px solid black; */
+                    background-color: orangered;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .second-page .fourth .navv .img-part .img-1 img{
+                    position: relative;
+                    width: 50px;
+                    height: 5px;
+                }
+
+                
+                .second-page .fourth .navv .img-part .img-2 img{
+                    position: relative;
+                    width: 50px;
+                    height: 5px;
+                }
+
+
+
+ /* card section  */
+
+
+                .second-page .fourth .card-a{
+                    display: flex;
+                    position: relative;
+                    gap: 20px;
+                    margin-left: 150px;
+                    margin-top: 100px;
+
+
+                }
+
+                .second-page .fourth .card-a .card-1{
+                    display: flex;
+                    position: relative;
+                    /* border: 2px solid red; */
+                    width: 45%;
+                    display: flex;
+                    gap: 25px;
+                    height: 295px;
+                }
+
+                .second-page .fourth .card-a .card-1 .imgg{
+                    width: 45%;
+                    /* border: 1px solid red; */
+                }
+
+                .second-page .fourth .card-a .card-1 .imgg img{
+                    width: 220px;
+                    height: 290px;
+                }
+
+                .second-page .fourth .card-a .card-1 .written{
+                    width: 55%;
+                    /* border: 1px solid red; */
+                }
+
+
+                .second-page .fourth .card-a .card-1 .written .heading{
+                    margin-top: 20px;
+
+                }
+                
+                .second-page .fourth .card-a .card-1 .written .heading h1{
+                    font-size: 26px;
+                }
+
+                .second-page .fourth .card-a .card-1 .written .action{
+                    color: orangered;
+                    margin-top: 20px;
+                }
+
+                .second-page .fourth .card-a .card-1 .written .para{
+                    margin-top: 20px;
+
+                }
+
+                .second-page .fourth .card-a .card-1 .written .para p{
+                    position: relative;
+                    margin-top: 10px;
+                    color: #758283;
+                }
+
+                .second-page .fourth .card-a .card-1 .written .bbtn{
+                    position: relative;
+                }
+
+                .second-page .fourth .card-a .card-1 .written .bbtn button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orangered;
+                    color: white;
+                    position: relative;
+                    margin-top: 30px;
+                    border: none;
+                }
+
+                .second-page .fourth .card-a .card-1 .written .bbtn button:hover{
+                    background-color: #242B2E;
+                    border: 1px orangered;
+                    
+
+                }
+
+
+
+/* card -2  */
+
+                .second-page .fourth .card-a .card-2{
+                    display: flex;
+                    position: relative;
+                    /* border: 2px solid red; */
+                    width: 47%;
+                    display: flex;
+                    gap: 25px;
+                    height: 295px;
+                }
+
+
+
+                .second-page .fourth .card-a .card-2 .imgg{
+                    width: 43%;
+                    /* border: 1px solid red; */
+                }
+
+                .second-page .fourth .card-a .card-2 .imgg img{
+                    width: 220px;
+                    height: 290px;
+                }
+
+                .second-page .fourth .card-a .card-2 .written{
+                    width: 55%;
+                    /* border: 1px solid red; */
+                }
+
+
+                .second-page .fourth .card-a .card-2 .written .heading{
+                    margin-top: 20px;
+
+                }
+                
+                .second-page .fourth .card-a .card-2 .written .heading h1{
+                    font-size: 26px;
+                }
+
+                .second-page .fourth .card-a .card-2 .written .adventure{
+                    color: orangered;
+                    margin-top: 20px;
+                }
+
+                .second-page .fourth .card-a .card-2 .written .para{
+                    margin-top: 20px;
+
+                }
+
+                .second-page .fourth .card-a .card-2 .written .para p{
+                    position: relative;
+                    margin-top: 10px;
+                    color: #758283;
+                }
+
+                .second-page .fourth .card-a .card-2 .written .bbtn{
+                    position: relative;
+                }
+
+                .second-page .fourth .card-a .card-2 .written .bbtn button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orangered;
+                    color: white;
+                    position: relative;
+                    margin-top: 30px;
+                    border: none;
+                }
+
+                .second-page .fourth .card-a .card-2 .written .bbtn button:hover{
+                    background-color: #242B2E;
+                    border: 1px orangered;
+                }
+
+
+                /* card-b  */
+
+                
+                .second-page .fourth .card-b{
+                    display: flex;
+                    position: relative;
+                    gap: 20px;
+                    margin-left: 150px;
+                    margin-top: 70px;
+                }
+
+                /* card-3  */
+
+                
+                .second-page .fourth .card-b .card-3{
+                    display: flex;
+                    position: relative;
+                    /* border: 2px solid red; */
+                    width: 45%;
+                    display: flex;
+                    gap: 25px;
+                    height: 295px;
+                }
+
+
+                
+                .second-page .fourth .card-b .card-3 .imgg{
+                    width: 43%;
+                    /* border: 1px solid red; */
+                }
+
+                .second-page .fourth .card-b .card-3 .imgg img{
+                    width: 220px;
+                    height: 290px;
+                }
+
+                .second-page .fourth .card-b .card-3 .written{
+                    width: 55%;
+                    /* border: 1px solid red; */
+                }
+
+
+                .second-page .fourth .card-b .card-3 .written .heading{
+                    margin-top: 20px;
+
+                }
+                
+                .second-page .fourth .card-b .card-3 .written .heading h1{
+                    font-size: 26px;
+                }
+
+                .second-page .fourth .card-b .card-3 .written .strategy{
+                    color: orangered;
+                    margin-top: 20px;
+                }
+
+                .second-page .fourth .card-b .card-3 .written .para{
+                    margin-top: 20px;
+
+                }
+
+                .second-page .fourth .card-b .card-3 .written .para p{
+                    position: relative;
+                    margin-top: 10px;
+                    color: #758283;
+                }
+
+                .second-page .fourth .card-b .card-3 .written .bbtn{
+                    position: relative;
+                }
+
+                .second-page .fourth .card-b .card-3 .written .bbtn button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orangered;
+                    color: white;
+                    position: relative;
+                    margin-top: 30px;
+                    border: none;
+                }
+
+                .second-page .fourth .card-b .card-3 .written .bbtn button:hover{
+                    background-color: #242B2E;
+                    border: 1px orangered;
+                }
+
+
+                /* card-4  */
+
+
+
+                
+                .second-page .fourth .card-b .card-4{
+                    display: flex;
+                    position: relative;
+                    /* border: 2px solid red; */
+                    width: 47%;
+                    display: flex;
+                    gap: 25px;
+                    height: 295px;
+                }
+
+
+                
+                .second-page .fourth .card-b .card-4 .imgg{
+                    width: 43%;
+                    /* border: 1px solid red; */
+                }
+
+                .second-page .fourth .card-b .card-4 .imgg img{
+                    width: 220px;
+                    height: 290px;
+                }
+
+                .second-page .fourth .card-b .card-4 .written{
+                    width: 55%;
+                    /* border: 1px solid red; */
+                    /* margin-left: 5px; */
+                }
+
+
+                .second-page .fourth .card-b .card-4 .written .heading{
+                    margin-top: 20px;
+
+                }
+                
+                .second-page .fourth .card-b .card-4 .written .heading h1{
+                    font-size: 26px;
+                }
+
+                .second-page .fourth .card-b .card-4 .written .adventure{
+                    color: orangered;
+                    margin-top: 20px;
+                }
+
+                .second-page .fourth .card-b .card-4 .written .para{
+                    margin-top: 20px;
+
+                }
+
+                .second-page .fourth .card-b .card-4 .written .para p{
+                    position: relative;
+                    margin-top: 10px;
+                    color: #758283;
+                }
+
+                .second-page .fourth .card-b .card-4 .written .bbtn{
+                    position: relative;
+                }
+
+                .second-page .fourth .card-b .card-4 .written .bbtn button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orangered;
+                    color: white;
+                    position: relative;
+                    margin-top: 30px;
+                    border: none;
+                }
+
+                .second-page .fourth .card-b .card-4 .written .bbtn button:hover{
+                    background-color: #242B2E;
+                    border: 1px orangered;
+                }
+
+
+                /* third page  */
+
+                .third-page{
+                    position: relative;
+                    /* margin-top: 100px; */
+                    background-color: #0D0D0D;
+                    color: white;
+                }
+
+                .third-page .head{
+                    height: 200px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .third-page .head p{
+                    font-size: 50px;
+                    font-weight: bold;
+                }
+
+                /* main part  */
+                .third-page .main{
+                    position: relative;
+                    display: flex;
+                    margin-top: 50px;
+                    margin-left: 100px;
+                    gap: 30px;
+
+                }
+
+                .third-page .main .left{
+                    height: 450px;
+                    width: 30%;
+                    /* border: 3px solid red ; */
+
+                }
+
+                .third-page .main .left img{
+                    height: 450px;
+                    width: 340px;
+
+                }
+
+                .third-page .main .right{
+                    height: 600px;
+                    width: 55%;
+                    display: flex;
+                    flex-direction: column;
+                    /* border: 3px solid red; */
+                }
+
+                .third-page .main .right .para{
+                    margin-top: 50px;
+                }
+
+                .third-page .main .right .para p{
+                    margin-top: 5px;
+                }
+
+                .third-page .main .right .world{
+                    margin-top: 20px;
+
+                  }
+
+                  .third-page .main .right .world img{
+                    height: 110px;
+                    width: 100%;
+                  }
+
+
+
+
+                  
+                .third-page .main .right .img-part{
+                    display: flex;
+                    gap: 30px;
+                    padding-bottom: 40px;
+                    /* justify-content: space-between; */
+                    /* padding-bottom: 100px; */
+
+                    
+                }
+
+                .third-page .main .right .img-part .img-1{
+                    width: 260px;
+                    height: 340px;
+                    margin-bottom: 100px;
+                    /* border: 3px solid red; */
+                     width: 250px;
+                }
+
+                .third-page .main .right .img-part .img-1 img{
+                    height: 340px;
+                    width: 260px;
+
+                     /* display: flex; */
+                     /* margin-bottom: 100px; */
+                }
+
+                
+
+                .third-page .main .right .img-part .img-2{
+                    width: 245px;
+                    height: 300px;
+                    display: flex;
+                    justify-content: flex-end;
+                    /* border: 3px solid red; */
+                    /* padding-top: 100px; */
+                    margin-top: 40px;
+                    margin-left: 50px;
+
+
+                }
+
+                .third-page .main .right .img-part .img-2 img{
+                    height: 300;
+                    width: 245px;
+                    padding-top: 100px;
+                }
+
+
+                /* gamer section  */
+                .gamer{
+                    color: whitesmoke;
+                    margin-top: 80px;
+                    height: 450px;
+                    width: 1200px;
+                    background-color: black;
+                    /* border: 3px solid red; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/Rectangle\ 606.png");
+                    /* background-image: 100% 100%; */
+                    margin-left: 40px;
+                    background-size: 1200px 450px;
+
+                }
+
+                .gamer .header{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+
+                .gamer .header .para p{
+                    font-size: 60px;
+                    font-weight: bold;
+                    color: #758283;
+
+                }
+
+                .gamer .header .para p:nth-child(2){
+                    margin-left: 150px;
+
+                }
+
+                .gamer .header .paragraph{
+                    font-size: 20px;
+                    color: gainsboro;
+                }
+
+                .gamer .header .bbtn button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orangered;
+                    border: none;
+                    color: whitesmoke;
+                }
+
+                .gamer .header .bbtn button:hover{
+                    background-color: #242B2E;
+                    border: 1px solid whitesmoke;
+                }
+
+
+                /* last parat  */
+                 .third-page .last-part{
+                    display: flex;
+                    position: relative;
+                    gap: 30px;
+                    margin-top: 100px;
+                    margin-left: 100px;
+                    /* height: 250px; */
+                    padding-bottom: 30px;
+                    
+                }
+
+               .third-page .last-part .first{
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                /* border: 2px solid red; */
+                height: 190px;
+                width: 200px;  
+               }
+
+               .third-page .last-part .first .para{
+                /* margin-bottom: 20px; */
+                /* border: 1px solid wheat; */
+                height: 57px;
+
+               }
+
+               .third-page .last-part .first .para p{
+                margin-top: 5px;
+               }
+
+               .third-page .last-part .first .logo img{
+                width: 100px;
+                height: 65px;
+               }
+
+               .third-page .last-part .first .logo{
+                /* border: 1px solid wheat; */
+                height: 57px;
+               }
+
+
+               .third-page .last-part .first .img-part{
+                display: flex;
+                /* border: 1px solid wheat; */
+                height: 57px;
+                margin-top: 5px;
+                gap: 10px;
+                
+               }
+
+               .third-page .last-part .first .img-part .img-1 img{
+                width: 50px;
+                height: 50px;
+               }
+
+               .third-page .last-part .first .img-part .img-1 img:hover{
+                /* color: #383CC1; */
+                background-color: #383CC1;
+               }
+
+               
+               .third-page .last-part .first .img-part .img-2 img{
+                width: 50px;
+                height: 50px;
+               }
+
+               .third-page .last-part .first .img-part .img-2 img:hover{
+                background-color:#E83A59;
+
+               }
+
+               
+               .third-page .last-part .first .img-part .img-3 img{
+                width: 50px;
+                height: 50px;
+               }
+
+               .third-page .last-part .first .img-part .img-3 img:hover{
+                background-color: #383CC1;
+
+               }
+
+               
+/* second  */
+               .third-page .last-part .second .heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* border: 2px solid red; */
+                height: 220px;
+                width: 170px;
+               }
+
+               .third-page .last-part .second .heading a{
+                text-decoration: none;
+                color: whitesmoke;
+               }
+
+               .third-page .last-part .third .heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* gap: 30px; */
+                /* border: 2px solid red; */
+                height: 200px;
+                width: 170px;
+               }
+
+               .third-page .last-part .third .heading a{
+                text-decoration: none;
+                color: whitesmoke;
+               }
+
+               .third-page .last-part .fourth .heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* gap: 30px; */
+                /* border: 2px solid red; */
+                height: 200px;
+                width: 170px;
+               }
+
+               .third-page .last-part .fourth .heading a{
+                text-decoration: none;
+                color: whitesmoke;
+               }
+
+               .third-page .last-part .fifth{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* gap: 30px; */
+                /* border: 2px solid red; */
+                height: 70px;
+                width: 170px;
+               }
+
+               .third-page .last-part .fifth a{
+                text-decoration: none;
+                color: whitesmoke;
+               }
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+

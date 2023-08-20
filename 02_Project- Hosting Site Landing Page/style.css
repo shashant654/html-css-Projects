@@ -1,0 +1,1513 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   .main-class{
+    position: relative;
+    height: 700px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+   }
+
+   .main-class .nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .main-class .nav .items .items-list{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    /* margin-right: ; */
+    gap: 50px;
+    color: gainsboro;
+   }
+
+
+   .main-class .nav .items .items-list li a{
+    color: whitesmoke;
+    text-decoration: none;
+
+   }
+
+   .main-class .nav button{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 15px;
+    color: whitesmoke;
+    margin-top: 10px;
+
+   }
+
+   .main-class .second{
+    position: relative;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 10px;
+   }
+
+   .main-class .second .left{
+    position: relative;
+    width: 50%;
+   }
+
+   .main-class .second .left .heading{
+    position: relative;
+    font-size: 35px;
+    color: whitesmoke;
+
+   }
+
+   .main-class .second .left .heading span{
+    color: blue;
+
+   }
+
+   .main-class .second .left .para{
+    position: relative;
+    color: darkgray;
+    margin-top: 25px;
+    font-size: 20px;
+
+   }
+
+
+   .main-class .second .left .btn-btn{
+     position: relative;
+     margin-top: 40px;
+
+     display: flex;
+     gap: 20px;
+
+   }
+
+   .main-class .second .left .btn-btn .get-button button{
+    position: relative;
+    /* margin-top: 30px; */
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: blue;
+
+
+   }
+
+   .main-class .second .left .btn-btn .try-button button{
+         position: relative;
+         /* margin-left: ; */
+         width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid white;
+   }
+   
+
+   .main-class .second .right{
+    position: relative;
+    width: 50%;
+   }
+
+   .main-class .second .right .image-part img{
+     height: 100px;
+     position: relative;
+   }
+
+
+   /* second part  */
+   .multiple-logo{
+    position: relative;
+    height: 100px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#242B2E;
+   }
+
+   /* third part */
+
+   .services-section{
+    position: relative;
+    padding: 40px 10px 10px 30px;
+
+
+   }
+
+   .services-section .services-1 .service-a{
+    position: relative;
+    font-size: 25px;
+    margin-left: 250px;
+   }
+
+   .services-section .services-1 .service-b{
+     position: relative;
+     margin-top: 15px;
+     margin-left: 400px;
+     color: darkgray;
+     font-size: 20px;
+   }
+
+   .services-section .services-1 .service-b p:nth-child(2){
+    position: relative;
+    margin-left: 75px;
+   }
+
+   .services-section .services-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     column-gap: 5px;
+    margin: 50px 30px 20px 80px;
+    padding-right: 140px;
+    padding-left: 140px;
+
+   }
+
+   .services-section .services-2 div{
+    position: relative;
+    border: 2px solid gray;
+    height: 200px;
+    width: 220px;
+    /* justify-content: c; */
+    background-color: white;
+    border-radius: 10px;
+   }
+
+   .services-section .services-2 div:nth-child(2){
+    background-color: #242B2E;
+    position: relative;
+    bottom: 20px;
+
+   }
+
+
+   .services-section .services-2 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-top: 13px;
+    margin-left: 80px;
+   }
+
+   .services-section .services-2 p{
+    position: relative;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    color: gray;
+
+
+   }
+
+   .services-section .services-2 h3{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* font-size: 20px; */
+    padding-bottom: 15px;
+    color: red;
+
+   }
+
+   .services-section .services-3{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 25px;
+   }
+
+   /* services four  */
+
+   .services-section .services-1 .services-4{
+
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 20px;
+   }
+
+   .services-section .services-1 .services-4 .left{
+    position: relative;
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red;  */
+    height: 300px;
+    row-gap: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+    margin-right: 15px;
+   }
+
+   .services-section .services-1 .services-4 .left .card-1{
+     position: relative;
+    height: 40px;
+    /* width: 100px; */
+    display: flex; 
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+   }
+
+
+   .services-section .services-1 .services-4 .left .card-1 img{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    margin-right: 30px;
+   }
+
+
+   .services-section .services-1 .services-4 .left .card-1 p{
+    position: relative;
+    margin-left: 20px;
+
+   }
+
+
+
+   
+   .services-section .services-1 .services-4 .left .card-2{
+    position: relative;
+   height: 40px;
+   /* width: 100px; */
+   display: flex; 
+   border: 1px solid darkgray;
+   color: #242B2E;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+  }
+
+  
+  .services-section .services-1 .services-4 .left .card-2 img{
+   height: 18px;
+   width: 18px;
+   position: relative;
+   margin-right: 30px;
+  }
+
+
+  .services-section .services-1 .services-4 .left .card-2 p{
+   position: relative;
+   margin-left: 20px;
+  }
+
+
+  
+  .services-section .services-1 .services-4 .left .card-3{
+    position: relative;
+   height: 40px;
+   /* width: 100px; */
+   display: flex; 
+   border: 1px solid darkgray;
+   color: #242B2E;
+   /* color: white; */
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+  }
+
+  
+  .services-section .services-1 .services-4 .left .card-3 img{
+   height: 18px;
+   width: 18px;
+   position: relative;
+   margin-right: 30px;
+  }
+
+
+  .services-section .services-1 .services-4 .left .card-3 p{
+   position: relative;
+   margin-left: 20px;
+  }
+
+
+
+  
+  .services-section .services-1 .services-4 .left .card-4{
+    position: relative;
+   height: 40px;
+   /* width: 100px; */
+   display: flex; 
+   border: 1px solid darkgray;
+   color: #242B2E;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+  }
+
+  
+  .services-section .services-1 .services-4 .left .card-4 img{
+   height: 18px;
+   width: 18px;
+   position: relative;
+   margin-right: 30px;
+  }
+
+
+  .services-section .services-1 .services-4 .left .card-4 p{
+   position: relative;
+   margin-left: 20px;
+
+  }
+
+
+  
+  .services-section .services-1 .services-4 .left .card-5{
+    position: relative;
+   height: 40px;
+   /* width: 100px; */
+   display: flex; 
+   border: 1px solid darkgray;
+   color: #242B2E;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+  }
+
+  
+  .services-section .services-1 .services-4 .left .card-5 img{
+   height: 18px;
+   width: 18px;
+   position: relative;
+   margin-right: 30px;
+  }
+
+
+  .services-section .services-1 .services-4 .left .card-5 p{
+   position: relative;
+   margin-left: 20px;
+   /* height: 300px; */
+   
+
+  }
+
+
+
+  
+/* RIGHT PART  */
+
+   .services-section .services-1 .services-4 .right{
+    position: relative;
+    width: 30%;
+    /* border: 2px solid black; */
+    height: 300px;
+    display: flex;
+    row-gap: 5px;
+    padding-left: 30px;
+    padding-top: 10px;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+
+   }
+
+
+
+   .services-section .services-1 .services-4 .right .card-a{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+    border-radius: 10px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-a div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   
+   .services-section .services-1 .services-4 .right .card-b{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-b div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   
+   .services-section .services-1 .services-4 .right .card-c{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-c div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+   
+   .services-section .services-1 .services-4 .right .card-d{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-d div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   
+   .services-section .services-1 .services-4 .right .card-e{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-e div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   
+   .services-section .services-1 .services-4 .right .card-f{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-f div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+
+   .services-section .services-1 .services-4 .right .card-g{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-g div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   
+   .services-section .services-1 .services-4 .right .card-h{
+    position: relative;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #242B2E;
+    padding-top: 5px;
+    padding-left: 5px;
+    gap: 30px;
+
+   }
+
+   .services-section .services-1 .services-4 .right .card-h div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; 
+    background-color:white; 
+    position: relative;
+    margin-top: 3px;
+
+   }
+
+
+   /* FOURTH PART  */
+
+   .fourth{
+    position: relative;
+     height: 800px;
+     background-color: black;
+   }
+
+   .fourth .nav{
+    position: relative;
+    display: flex;
+    height: 200px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   }
+
+   .fourth .nav .parag {
+    position: relative;
+    color: whitesmoke;
+    /* margin-bottom: 30px; */
+    font-size: 40px;
+    padding-bottom: 30px;
+   }
+
+   .fourth .nav .parag p:nth-child(2){
+    position: relative;
+    margin-left: 50px;
+    /* margin-bottom: 30px; */
+    /* padding-bottom: 10px; */
+   }
+
+
+   .fourth .nav .imag-1 img{
+    position: relative;
+    height: 100px;
+    margin-top: 10px;
+   }
+
+   .fourth .nav .imag-2 img{
+    position: relative;
+    height: 100px;
+    margin-top: 10px;
+
+   }
+
+
+   .fourth .main-part{
+    position: relative;
+    /* height: 500px; */
+    display: flex;
+    gap: 20px;
+    margin-left: 130px;
+    
+
+   }
+
+   .fourth .main-part .left{
+    position: relative;
+    width: 28%;
+    height: 550px;
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+   }
+
+   .fourth .main-part .left .lining{
+    width: 220px;
+    height: 2px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-top: 15px;
+
+   }
+
+   .fourth .main-part .left h2{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: gray;
+   }
+
+   .fourth .main-part .left .dolor{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+   }
+
+   .fourth .main-part .left .dolor h3{
+    position: relative;
+    margin-top: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .left .para {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+
+   .fourth .main-part .left .case-1{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .left .case-2{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .left .case-3{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .left .case-4{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .left .case-5{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .left .case-6{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .left .case-7{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .left button{
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+   }
+
+
+
+   .fourth .main-part .midle{
+    position: relative;
+    width: 28%;
+    height: 550px;
+    /* border: 2px solid red; */
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+   }
+
+
+   
+   .fourth .main-part .midle .lining{
+    width: 220px;
+    height: 2px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+
+   }
+
+   .fourth .main-part .midle h2{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+   }
+
+   .fourth .main-part .midle .dolor{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+   }
+
+   .fourth .main-part .midle .dolor h3{
+    position: relative;
+    margin-top: 10px;
+    color: white;
+   }
+
+   .fourth .main-part .midle .para {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+
+   .fourth .main-part .midle .case-1{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+   .fourth .main-part .midle .case-2{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+
+   .fourth .main-part .midle .case-3{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+
+   .fourth .main-part .midle .case-4{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+   .fourth .main-part .midle .case-5{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+   .fourth .main-part .midle .case-6{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+
+   .fourth .main-part .midle .case-7{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: white;
+   }
+
+   .fourth .main-part .midle button{
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color:white;
+    color:blue;
+    border: none;
+   }
+   
+
+
+
+
+
+   .fourth .main-part .rightt{
+    position: relative;
+    width: 28%;
+    height: 550px;
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+   }
+
+
+
+
+   
+   .fourth .main-part .rightt .lining{
+    width: 220px;
+    height: 2px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-top: 15px;
+
+   }
+
+   .fourth .main-part .rightt h2{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt .dolor{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+   }
+
+   .fourth .main-part .rightt .dolor h3{
+    position: relative;
+    margin-top: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt .para {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+
+   .fourth .main-part .rightt .case-1{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt .case-2{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .rightt .case-3{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .rightt .case-4{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt .case-5{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt .case-6{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+
+   .fourth .main-part .rightt .case-7{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 10px;
+    color: gray;
+   }
+
+   .fourth .main-part .rightt button{
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+   }
+
+
+   /* fifth part  */
+   .fifth{
+    position: relative;
+    height: 700px;
+    background-color: white;
+
+   }
+
+   .fifth .upper{
+position: relative;
+height: 300px;
+display: flex;
+/* margin-top: 100px; */
+justify-content: space-around;
+align-items: center;
+padding-left: 100px;
+padding-right: 100px;
+
+
+
+   }
+
+   .fifth .upper .left{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+
+
+
+   }
+
+   .fifth .upper .right{
+    position: relative;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 10px;
+   }
+
+
+   /* lower  */
+
+   .fifth .lower {
+    position: relative;
+    margin-left: 200px;
+    padding-bottom: 20px;
+    display: flex;
+
+    gap: 30px;
+   }
+
+   /* left part  */
+
+   .fifth .lower .left{
+    position: relative;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: 330px;
+    width: 38%;
+    /* background-color: aliceblue; */
+        background-color: black;
+        color: white;
+
+   }
+
+   .fifth .lower .left .first{
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 15px;
+    gap: 5px;
+    color: white;
+   }
+
+   .fifth .lower .left .second{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 15px;
+   }
+
+   .fifth .lower .left .second h3{
+    /* color: gray; */
+   }
+
+   .fifth .lower .left .second p{
+    color: gainsboro;
+    position: relative;
+    margin-top: 8px;
+   }
+
+   .fifth .lower .left .third{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 15px;
+    color:gainsboro;
+    font-size: 20px;
+   }
+
+   .fifth .lower .left .fourth{
+    height: 30px;
+    position: relative;
+    /* padding-bottom: 30px; */
+    display: flex;
+    margin-left: 15px;
+    /* margin-bottom: 20px; */
+    background-color: black;
+    margin-top: 30px;
+    gap: 10px;
+    width: 100px;
+
+   }
+
+   .fifth .lower .left .fourth img{
+    width: 40px;
+    height: 20px;
+   }
+
+/* right part  */
+
+   .fifth .lower .right{
+   background-color:white;
+   position: relative;
+   border: 2px solid gray;
+   border-radius: 20px;
+    height: 330px;
+    width: 38%;
+   color: #242B2E;
+   }
+
+      .fifth .lower .right .first{
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 15px;
+    gap: 5px;
+    /* color: white; */
+   }
+
+   .fifth .lower .right .second{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 15px;
+   }
+
+   .fifth .lower .right .second h3{
+    /* color: gray; */
+
+   }
+
+   .fifth .lower .right .second p{
+    /* color: gainsboro; */
+    position: relative;
+    margin-top: 8px;
+   }
+
+   .fifth .lower .right .third{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 15px;
+    /* color:gainsboro; */
+    font-size: 20px;
+   }
+
+   .fifth .lower .right .fourth{
+    height: 30px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    /* gap: 5px; */
+    margin-left: 15px;
+    /* margin-bottom: 20px; */
+    background-color: white;
+    gap: 10px;
+    width: 100px;
+
+   }
+
+
+   .fifth .lower .right .fourth img{
+    width: 40px;
+    height: 20px;
+
+   }
+   
+/* fifth last part  */
+   .fifth .last{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+
+   .fifth .last .blue{
+    margin-left: 200px;
+    margin-top: 25px;
+    height: 6px;
+    width: 180px;
+    background-color: blue;
+   }
+
+   .fifth .last .gray{
+    position: relative;
+    width: 1000px;
+    height: 6px;
+    margin-top: 25px;
+    background-color: gray;
+
+   }
+
+   /* sixth part  */
+
+   .sixth {
+    position: relative;
+    height: 800px;
+    background-color:#242B2E;
+
+   }
+
+   .sixth .nav{
+    position: relative;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: whitesmoke;
+    background-color: #242B2E;
+   }
+
+   .sixth .nav p{
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+   }
+
+.sixth .middle{
+    position: relative;
+    height: 150px;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #758283;
+    border-radius: 20px;
+}
+
+
+   .sixth .middle form{
+    position: relative;
+    height: 250px;
+    display: flex;
+   }
+
+   .sixth .middle form .form-group input{
+position: relative;
+display: flex;
+justify-content:left;
+width: 250px;
+height: 50px;
+gap: 30px;
+
+border-radius: 20px;
+margin-left: 33px;
+margin-top: 50px;
+border-radius: 20px;
+color: whitesmoke;
+background-color: gainsboro;
+border: none;
+
+   }
+
+   .sixth .middle form button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 30px;
+    border: none;
+   }
+
+
+   .sixth .lining{
+    position: relative;
+    height: 4px;
+    width: 1050px;
+    background-color:gray;
+    margin-top: 70px;
+    margin-left: 100px;
+
+   }
+   /* last part  */
+
+   .sixth .last{
+    position: relative;
+    display: flex;
+    height: 200px;
+    margin-top: 70px;
+    gap: 30px;
+    margin-left: 200px;
+    gap:80px ;
+
+   }
+
+   .sixth .last .first{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    background-color:#242B2E;
+    width: 15%;
+    color: whitesmoke;
+    gap: 10px;
+
+
+   }
+
+   .sixth .last .first h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .first p a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .second{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 15%;
+    background-color:#242B2E;
+    color: whitesmoke;
+    gap: 10px;
+   }
+   
+  
+   .sixth .last .second h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .second p a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .third{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 200px;
+    background-color:#242B2E;
+    color: whitesmoke;
+    gap: 10px;
+
+
+   }
+
+   
+   .sixth .last .third h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .third p a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+
+   .sixth .last .fourth{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 200px;
+    background-color:#242B2E;
+    color: whitesmoke;
+    gap: 10px;
+
+   }
+
+   
+   .sixth .last .fourth h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+   .sixth .last .fourth p a{
+    color: whitesmoke;
+    text-decoration: none;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+

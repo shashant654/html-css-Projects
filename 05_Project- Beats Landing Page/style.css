@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    
+}
+
+.container .first{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    /* border: 2px solid red; */
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 180px;
+}
+
+.container .first .img-2 img{
+    height: 400px;
+}
+
+.container .first .img-1 img{
+    margin-top: 15px;
+}
+
+.container .first .main{
+    margin-left: 80px;
+}
+
+.container .first .main .navbar{
+    display: flex;
+    /* flex-direction: column; */
+    height: 70px;
+    align-items: center;
+    
+}
+
+.container .first .main .navbar .nav{
+    display: flex;
+    gap:45px; 
+}
+
+.container .first .main .navbar .nav p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container .first .main .navbar .shop .btn{
+    width: 120px;
+    height: 45px;
+    margin-left: 60px;
+    color: whitesmoke;
+    background-color:#242B2E;
+    border-radius: 12px;
+}
+
+.container .first .main .navbar .shop .btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.container .first .main .beats3 p{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container .first .main .overview{
+    margin-top: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.container .first .main .enjoy{
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.container .first .main .enjoy p{
+    margin-top: 5px
+}
+
+.container .first .main .box{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: #242B2E;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container .cmpny{
+    /* margin-top: 60px; */
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    height: 90px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+}
+
+/* specs part  */
+.container .specs{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 350px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container .specs .firstt{
+    height: 70px;
+    /* border: none; */
+    width: 200px;
+    height: 70px;
+
+}
+
+.container .specs .first img{
+    width: 170px;
+    height: 65px;
+}
+
+.container .specs .second-part{
+    display: flex;
+    /* border: 1 px solid red; */
+    height: 300px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+} 
+
+.container .specs .second-part .specification{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .specs .second-part .specification .battery, .mic{
+    margin-left: 10px;
+}
+
+
+.container .specs .second-part .headphone img{
+    width: 250px;
+    height: 300px;
+}  
+
+
+/* case part  */
+.container .case{
+    margin-top: 80px;
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+    /* border: 2px solid red; */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.container .case .case-1{
+    height: 80px;
+
+}
+
+.container .case .case-1 img{
+    height: 50px;
+    width: 150px;
+    margin-left: 160px;
+}
+
+.container .case .case-2{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.container .case .case-2 .left{
+    width: 250px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.container .case .case-2 .left img{
+    width: 250px;
+    height: 350px;
+}
+
+
+.container .case .case-2 .right{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container .case .case-2 .right .parag{
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.container .case .case-2 .right .parag p{
+    margin-top: 10px;
+}
+
+.container .case .case-2 .right .infobtn .btnn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 45px;
+    background-color: #242B2E;
+    color: whitesmoke;
+    border-radius: 12px;
+    border: none;
+    margin-top: 40px;
+}
+
+.container .case .case-2 .right .infobtn .btnn:hover{
+    background-color: #758283;
+    color: black;
+}
+
+ /* immerse yourself in your music  */
+ .container .immerse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 900px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-color: #242B2E;
+    border-radius: 12px;
+ }
+
+ .container .immerse .left-part{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+
+ }
+
+
+ .container .immerse .left-part .buy-now .bttn{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+ }
+
+ .container .immerse .left-part .buy-now .bttn:hover{
+    background-color: #758283;
+ }
+
+ .container .immerse .right-part img{
+    width: 200px;
+    height: 150px;
+ }
+
+ /* choose your style  */
+ .container .choose{
+    margin-top: 70px;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container .choose img{
+    width: 230px;
+    height: 120px;
+ }
+  
+  /* three headphone  */
+ .container .three-img{
+    display: flex;
+    gap: 30px;
+    height: 130px;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    justify-content: center;
+
+ }
+
+ .container .three-img .black{
+    width: 150px;
+    height: 125px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+ }
+
+ .container .three-img .black .imag{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 46px;
+ }
+ 
+  .container .three-img .black .imag img{
+     width: 60px;
+     height: 70px;
+  }
+
+ .container .three-img .black .other{
+
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #242B2E;
+    margin-top: 35px;
+    
+ }
+
+ .container .three-img .black .other .blackk, .bag{
+    margin-top: 40px;
+ }
+
+
+ /* red  */
+ .container .three-img .red{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+ }
+
+ 
+ .container .three-img .red{
+    width: 150px;
+    height: 125px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+ }
+
+ .container .three-img .red .imag{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 46px;
+ }
+
+ .container .three-img .red .imag img{
+    width: 60px;
+    height: 70px;
+ }
+
+ .container .three-img .red .other{
+
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #242B2E;
+    margin-top: 35px;
+    
+ }
+
+ .container .three-img .red .other .blackk, .bag{
+    margin-top: 40px;
+ }
+
+ /* yellow  */
+ 
+ .container .three-img .yellow{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+ }
+
+ 
+ .container .three-img .yellow{
+    width: 150px;
+    height: 125px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+ }
+
+ .container .three-img .yellow .imag{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 46px;
+ }
+
+ .container .three-img .yellow .imag img{
+    width: 60px;
+    height: 70px;
+ }
+
+ .container .three-img .yellow .other{
+
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #242B2E;
+    margin-top: 35px;
+    
+ }
+
+ .container .three-img .yellow .other .blackk, .bag{
+    margin-top: 40px;
+ }
+
+ /* two headphone  */
+ .container .two-img{
+    display: flex;
+    gap: 30px;
+    height: 130px;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    margin-left: 370px;
+ }
+
+ /* blue headphone  */
+
+ 
+ .container .two-img .blue{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+ }
+
+ 
+ .container .two-img .blue{
+    width: 150px;
+    height: 125px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+ }
+
+ .container .two-img .blue .imag{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 46px;
+ }
+
+ .container .two-img .blue .imag img{
+    width: 60px;
+    height: 70px;
+ }
+
+ .container .two-img .blue .other{
+
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #242B2E;
+    margin-top: 35px;
+    
+ }
+
+ .container .two-img .blue .other .blackk, .bag{
+    margin-top: 40px;
+ }
+
+ /* grey headphone  */
+
+ 
+ .container .two-img .grey{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+ }
+
+ 
+ .container .two-img .grey{
+    width: 150px;
+    height: 125px;
+    /* border: 1px solid red; */
+    color: whitesmoke;
+
+ }
+
+ .container .two-img .grey .imag{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 46px;
+ }
+
+ .container .two-img .grey .imag img{
+    width: 60px;
+    height: 70px;
+ }
+
+ .container .two-img .grey .other{
+
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #242B2E;
+    margin-top: 35px;
+    
+ }
+
+ .container .two-img .grey .other .blackk, .bag{
+    margin-top: 40px;
+ }
+
+
+
+ /* footer section  */
+
+ .container .footerr{
+    display: flex;
+    margin-top: 80px;
+    height: 400px;
+    /* border: 2px solid red; */
+    gap:30px ;
+    margin-left: 240px;
+ }
+
+ .container .footerr .beat{
+    width: 90px;
+    height: 200px;
+    /* border: 1px solid red; */
+ }
+
+ .container .footerr .beat img{
+    /* width: 40px; */
+    
+ }
+
+ .container .footerr .product{
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .container .footerr .product a{
+   text-decoration: none;
+   color: whitesmoke;
+ }
+
+ 
+ .container .footerr .support{
+   width: 150px;
+   height: 200px;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+
+.container .footerr .support a{
+   text-decoration: none;
+   color: whitesmoke;
+}
+
+
+.container .footerr .lastest{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+
+.container .footerr .lastest .subscribe .bttn{
+   display: flex;
+    height: 40px;
+   width: 190px;
+background-color: #242B2E;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.container .footerr .lastest .subscribe .bttn p{
+   color: white;
+}
+
+.container .footerr .lastest .img-section{
+   display: flex;
+   gap: 20px;
+}
+
+
+.container .footerr .uparrow{
+   position: relative;
+   margin-left: 250px;
+   margin-top: 100px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
